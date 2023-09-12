@@ -1,0 +1,19 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+#board {
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 2;
+}
+
+#body {
+  /* background-color: black; */
+  background-image: url("./bg.png");
+  height: 640px;
+}
